@@ -1,2 +1,2 @@
 # CalcMatrix.numero.py
-mumerology by python
+numerology by python
