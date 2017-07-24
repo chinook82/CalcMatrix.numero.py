@@ -10,5 +10,12 @@ class AddDigits:
 
     def add_digits(self):
         pass
+
+    # aDigits def
+    def set_adig1(self, some_date):
+        # aDig1.set_AddDigit(some_date)
+        # aDig1. = AddDigit(some_date)
+        aDig1 = AddDigit(some_date)
+        aDig1 = AddDigit(some_date)
     # aDigits def
 # aDigits class

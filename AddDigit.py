@@ -1,4 +1,5 @@
 """ Class for additional Digit """
+import datetime
 
 
 class AddDigit:
@@ -9,4 +10,8 @@ class AddDigit:
         pass
     # addDigit def
 
+    def set_AddDigit(self, some_date):
+        self.value = some_date.datetime.day
+
+    # addDigit def
 # AddDigit class
