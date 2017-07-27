@@ -3,9 +3,6 @@ import AddDigit
 import datetime, sys
 
 
-
-
-
 # --- main def ---
 def main(argv):
     calc_date = datetime.datetime.now()
