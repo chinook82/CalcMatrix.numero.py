@@ -1,15 +1,18 @@
 """ Class for 4 additional Digits class """
-import AddDigit, datetime
+import AddDigit.AddDigit as AD, datetime
 
 
 class AddDigits:
-    aDig1 = AddDigit.AddDigit(datetime.date.today(),"current day")
-    aDig2 = AddDigit.AddDigit(datetime.date.today(),"current day")
-    aDig3 = AddDigit.AddDigit(datetime.date.today(),"current day")
-    aDig4 = AddDigit.AddDigit(datetime.date.today(),"current day")
+    AD_01 = AD.AddDigit(1)
+    AD_02 = AD.AddDigit(2)
+    AD_03 = AD.AddDigit(3)
+    AD_04 = AD.AddDigit(4)
 
-    def __init__(self, value, description):
-        self.aDig1 = AddDigit.AddDigit(value, description)
+    def __init__(self, value):
+        self.AD_01 = AD.AddDigit.set_add_digit(value, 1, "AD_01")
+        self.AD_02 = AD.AddDigit.set_add_digit(value, 2, "AD_02")
+        self.AD_02 = AD.AddDigit.set_add_digit(value, 3, "AD_03")
+        self.AD_02 = AD.AddDigit.set_add_digit(value, 4, "AD_04")
         pass
     # __init__ def
 

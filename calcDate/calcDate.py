@@ -1,4 +1,4 @@
-""" Class for 4 additional Digits class """
+""" Class for calc date additional Digits class """
 import AddDigit, datetime
 
 
@@ -13,7 +13,5 @@ class CalcDate:
     M_03
     M_04
     M_05
-
-
     pass
 # calc_date class

@@ -10,8 +10,8 @@ class AddDigit:
     def __init__(self):
         self.value = datetime.date.today()
         self.position = 0
-        self.description = "Additional digit"
-        pass
+        self.description = "AD"
+    pass
     # init def
 
     def set_add_digit(self, value, position, description):
