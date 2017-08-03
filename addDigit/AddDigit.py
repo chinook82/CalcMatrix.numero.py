@@ -7,18 +7,17 @@ class AddDigit:
     description = ""
     position = 0
 
-    def __init__(self, positon=0):
-        self.value = datetime.datetime.today()
-        self.position = positon
+    def __init__(self, position=0):
+        self.value = 0
+        self.position = position
         self.description = "AD"
 
     # init def
 
-    def set_add_digit(self, value, position, description):
-        self.value = value
-        self.position = position
-        self.description = description
-        pass
+    def set_add_digit(self, value=0, position=0, description="AD"):
+        AddDigit.value = value
+        AddDigit.position = position
+        AddDigit.description = description
     # set_add_digit def
 
     def get_add_digit(self):

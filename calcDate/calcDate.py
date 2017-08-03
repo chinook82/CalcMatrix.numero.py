@@ -1,5 +1,6 @@
 """ Class for calc date additional Digits class """
-import AddDigit, datetime
+from addDigit.AddDigit import AddDigit
+import datetime
 
 
 class CalcDate:
