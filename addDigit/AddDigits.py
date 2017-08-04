@@ -1,6 +1,5 @@
 """ Class for 4 additional Digits class """
 from addDigit.AddDigit import AddDigit
-import datetime
 
 
 class AddDigits:
@@ -28,6 +27,7 @@ class AddDigits:
         self.AD_01.value = self.AD_01.value + tmp_day
 
         tmp_month = calc_date.month
+
         while tmp_month >= 10:
             self.AD_01.value += tmp_month % 10
             tmp_month //= 10
@@ -60,14 +60,13 @@ class AddDigits:
             pass
         # end while
         self.AD_04.value = self.AD_04.value + tmp_AD
-
         pass
     # calc_digits def
 
     def add_digits(self):
+
         pass
     # add_digits def
-
 # aDigits class
 
 
