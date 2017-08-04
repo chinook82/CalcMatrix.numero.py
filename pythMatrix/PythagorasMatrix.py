@@ -3,7 +3,6 @@
 
 class PythagorasMatrix:
 
-
     pass
 # end PythagorasMatrix class
 

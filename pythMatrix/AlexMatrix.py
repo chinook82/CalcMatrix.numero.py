@@ -3,7 +3,6 @@
 
 class AlexMatrix:
 
-
     pass
 # end PythagorasMatrix class
 
